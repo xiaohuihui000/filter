@@ -53,8 +53,7 @@
     
     bufferImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 375, 667)];
     
-    UIImage *image = [UIImage imageNamed:@"IMG_5137.jpg"];
-    bufferImageView.image = [filter imageByFilteringImage:image];
+
     
     [self.view addSubview:bufferImageView];
     

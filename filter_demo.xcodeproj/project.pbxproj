@@ -17,8 +17,6 @@
 		DE80D04E1E120C140030F693 /* filter_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE80D04D1E120C140030F693 /* filter_demoUITests.m */; };
 		DE80D06A1E120F2F0030F693 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE80D0691E120F2F0030F693 /* AVFoundation.framework */; };
 		DE80D0781E12105D0030F693 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE80D0731E12104D0030F693 /* libGPUImage.a */; };
-		DE80D08E1E124BBB0030F693 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE80D08D1E124BBB0030F693 /* 1.jpg */; };
-		DE80D0901E125CD00030F693 /* IMG_5137.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE80D08F1E125CD00030F693 /* IMG_5137.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +76,6 @@
 		DE80D04F1E120C140030F693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE80D0691E120F2F0030F693 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DE80D06C1E12104D0030F693 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = GPUImage/GPUImage.xcodeproj; sourceTree = SOURCE_ROOT; };
-		DE80D08D1E124BBB0030F693 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		DE80D08F1E125CD00030F693 /* IMG_5137.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5137.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +134,6 @@
 				DE80D02C1E120C130030F693 /* AppDelegate.m */,
 				DE80D02E1E120C130030F693 /* ViewController.h */,
 				DE80D02F1E120C130030F693 /* ViewController.m */,
-				DE80D08D1E124BBB0030F693 /* 1.jpg */,
-				DE80D08F1E125CD00030F693 /* IMG_5137.jpg */,
 				DE80D0311E120C130030F693 /* Main.storyboard */,
 				DE80D0341E120C130030F693 /* Assets.xcassets */,
 				DE80D0361E120C130030F693 /* LaunchScreen.storyboard */,
@@ -312,9 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE80D0901E125CD00030F693 /* IMG_5137.jpg in Resources */,
 				DE80D0381E120C130030F693 /* LaunchScreen.storyboard in Resources */,
-				DE80D08E1E124BBB0030F693 /* 1.jpg in Resources */,
 				DE80D0351E120C130030F693 /* Assets.xcassets in Resources */,
 				DE80D0331E120C130030F693 /* Main.storyboard in Resources */,
 			);
